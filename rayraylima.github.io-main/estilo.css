@@ -1,0 +1,40 @@
+ul{
+    list-style-type: none;
+}
+
+li{
+    display: inline ;
+    padding: 1rem;
+}
+
+
+body{
+    background-color: #c095a9;
+    font-family: 'Courier New', Monospace;
+    text-align: center;
+}
+
+a:hover{
+    color: #a9165b;
+}
+
+a{
+    color: rgb(106, 10, 55);
+    text-decoration: none;
+}
+
+h1{
+    color: rgb(63, 3, 31);
+    font-family: 'Courier New', Monospace;
+}
+
+.galeria{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; /* espaço entre as imagens */
+}
+
+.galeria img{
+    width: 300px;
+    border-radius: 20%;
+} 
