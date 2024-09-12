@@ -43,4 +43,20 @@ img{
     border-radius: 10%; 
 }
 
- 
+.galeria img:hover{
+    transform: scale(1.05);
+}
+
+.contato img{
+    height: 150px;
+    border-radius: 50px;
+    transition: transform 0.2s;
+}
+
+.contato img:hover{
+   transform: scale(1.05);
+}
+
+img:hover{
+    transform: scale(1.07);
+}
